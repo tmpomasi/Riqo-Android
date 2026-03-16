@@ -1,0 +1,62 @@
+{
+  "name": "RIQO — Libertad Financiera",
+  "short_name": "RIQO",
+  "description": "Tu Norte Hacia la Riqueza. App de finanzas personales para Latinoamérica. Mide tu Índice de Riqueza, controla ingresos y gastos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0E0E0E",
+  "theme_color": "#0E0E0E",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["finance", "productivity"],
+  "iarc_rating_id": "",
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icons/icon-48.png",   "sizes": "48x48",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-72.png",   "sizes": "72x72",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-96.png",   "sizes": "96x96",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-120.png",  "sizes": "120x120", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-128.png",  "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-144.png",  "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-152.png",  "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-180.png",  "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png",  "sizes": "192x192", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/icon-256.png",  "sizes": "256x256", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png",  "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screen-dashboard.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Dashboard — Índice de Riqueza"
+    },
+    {
+      "src": "screenshots/screen-savings.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Ahorros y Estrellas"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Registrar Ingreso",
+      "short_name": "Ingreso",
+      "description": "Agrega un ingreso rápidamente",
+      "url": "/?action=income",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Registrar Gasto",
+      "short_name": "Gasto",
+      "description": "Agrega un gasto rápidamente",
+      "url": "/?action=expense",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": []
+}
